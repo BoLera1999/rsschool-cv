@@ -20,6 +20,11 @@ My strengths: resistance to stress, multitasking, ability to learn quickly, resp
 Higher education, Biological
 
 ## Code example
+```
+function multiply(a, b){
+ return a * b
+}
+```
 
 ## Courses
 - RS Schools Course «JavaScript/Front-end. Stage 0»
