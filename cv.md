@@ -5,7 +5,7 @@ _Junior Frontend Developer_
 - Location: Minsk, Belarus
 - Phone: +375445385853
 - GitHub: [BoLera1999](https://github.com/BoLera1999)
-- E-mail: [valeriyaboldyreva](valeriyaboldyreva@mail.ru)
+- E-mail: <valeriyaboldyreva@mail.ru>
 
 ## About me
 I became interested in IT a year ago when I thought about changing my profession. I was attracted by the fact that new technologies and approaches are constantly emerging in this area, which allows to constantly learn and develop.  
