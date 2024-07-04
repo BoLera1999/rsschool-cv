@@ -11,7 +11,7 @@ _Junior Frontend Developer_
 I became interested in IT a year ago when I thought about changing my profession. I was attracted by the fact that new technologies and approaches are constantly emerging in this area, which allows to constantly learn and develop.  
 My strengths: resistance to stress, multitasking, ability to learn quickly, responsibility, calmly accept criticism, desire to develop.
 ### Skills
-- CCS
+- CSS
 - JavaScript (Basic)
 - Git, GitHub
 - VS Code

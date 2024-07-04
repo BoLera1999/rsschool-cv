@@ -1,3 +1,13 @@
-h1 {
-    color: red;
-}
+@font-face {
+    font-family: Roboto;
+    src: url("assets/fonts/Roboto.ttf");
+  }
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+  }
