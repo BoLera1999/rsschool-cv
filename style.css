@@ -1,85 +1,177 @@
 @font-face {
-  font-family: Montserrat;
-  src: url("assets/fonts/Montserrat.zip");
+  font-family: Roboto;
+  src: url("assets/fonts/RobotoSlab-VariableFont_wght.ttf");
+}
+
+* {
+margin: 0 auto;
+padding: 0;
 }
 
 body {
-  width: 70%;
-  padding: 5px;
-  margin: auto;
-}
-.header {
-  background: #FFD541;
-}
-.nav-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  list-style-type: none;
-  font-size: 15px;
+font-family: 'Montserrat';
 }
 
-.nav-link {
-  padding: 0 20px;
-  line-height: 50px;
+a {
+text-decoration: none;
 }
 
-.main {
-  margin-bottom: auto;
-  background: #FFE896;
+a:visited {
+  color: black;
 }
 
-.bloc-profile {
-  align-content: center;
-  width: 100%;
+a:active {
+  color: black;
 }
 
-.img {
-  width: 40%;
-  padding: 17px;
-  float: left;
-  border-radius: 50px;
+.nav-item {
+list-style: none;
+display: inline;
+}
+
+header {
+width: 100%;
+background-color: #FFD541;
+display: flex;
+}
+
+.nav {
+font-size: 18px;
+margin-top: 50px;
+padding: 10px;
+}
+
+.nav-item a {
+text-align: center;
+padding: 20px;
+}
+
+
+@media screen and (max-width: 820px) {
+.nav-item a {
+  padding: 15px;
+}
+}
+
+main {
+display: flex;
+flex-direction: column;
+width: 100%;
+background-color: #FFE896;
+}
+
+.conteiner-one {
+width: 60%;
+text-align: center;
+padding: 10px 0 50px 0;
 }
 
 .profile {
-  width: 50%;
-  float: right;
-  margin: 85px 0;
-  background: none;
-  padding: 15px;
-  text-align: center;
-  font-size: 20px;
+display: flex;
+}
+
+h1 {
+padding: 5px 15px;
+font-size: 30px;
+}
+
+h2 {
+padding: 10px;
+font-size: 22px;
+}
+
+h3 {
+padding: 10px;
+font-size: 20px;
+}
+
+h4 {
+padding: 10px;
+font-weight: 400;
+}
+
+.img {
+width: 450px;
+float: left;
+border-radius: 200px;
+}
+
+.profile-subtitle {
+margin: 160px auto auto 50px;
+}
+
+.conteiner {
+display: flex;
+width: 75%;
+text-align: center;
+padding: 10px 0 50px 0;
+}
+
+.section-about-me {
+width: 60%;
 }
 
 .section {
-  width: calc(10px + 100px);
-  padding: 10px;
-  padding-bottom: 35px;
+width: 50%;
 }
 
-.footer {
-  background-color: #FFD541;
-  padding: 20px;
+.section-one {
+display: flex;
+width: 75%;
 }
-.footer-conteiner {
-  display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    color: #fff;
+
+p {
+padding: 10px;
 }
+
+.section-left {
+width: 50%;
+padding: 0 35px;
+}
+
+.section-right {
+width: 50%;
+padding: 0 35px;
+}
+
+.skills-list {
+text-align: left;
+padding: 5px;
+margin: 0 0 0 50px;
+}
+
+pre {
+white-space: pre;
+transform: translate(-40%, 30%);
+}
+
+ul {
+text-align: left;
+}
+
+footer {
+width: 100%;
+background-color: #FFD541;
+}
+
+.conteiner-footer {
+display: flex;
+width: 75%;
+text-align: center;
+align-items: center;
+}
+
 .github {
-  color: black;
-  text-decoration: none;
-  line-height: 45px;
+font-size: 16px;
 }
 
 .icon {
-  width: 121px;
-  background-image: url(./assets/icon/unnamed.ico);
-  background-size: contain;
+width: 25%;
 }
 
-.year {
+hr {
   color: black;
+  background-color: black;
+  border: none;
+  height: 1px;
 }
