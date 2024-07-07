@@ -14,15 +14,15 @@ font-family: 'Montserrat';
 
 a {
   text-decoration: none;
-  color: black;
+  color: #000000;
 }
 
 a:visited {
-  color: black;
+  color: #000000;
 }
 
 a:active {
-  color: black;
+  color: #000000;
 }
 
 .nav-item {
@@ -136,15 +136,15 @@ p {
   padding: 0 35px;
 }
 
-.skills-list {
+.list {
   text-align: left;
-  padding: 5px;
+  padding: 10px 0 0 0;
   margin: 0 0 0 50px;
 }
 
 pre {
   white-space: pre;
-  transform: translate(-40%, 30%);
+  transform: translate(-30%, 30%);
 }
 
 ul {
@@ -173,8 +173,8 @@ font-size: 16px;
 }
 
 hr {
-  color: black;
-  background-color: black;
+  color: #000000;
+  background-color: #000000;
   border: none;
   height: 1px;
 }
